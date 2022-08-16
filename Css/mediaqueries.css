@@ -1,0 +1,34 @@
+/* MEDIAQUERIES */
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+/* Para pantallas con un ancho igual o mayor a 1200px */
+@media (min-width: 1200px){
+    /* Aqui van las reglas css que aplican para esta medida de pantalla */
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+/* Para pantallas con un ancho entre 1199px y 992 px */
+@media (max-width:1199px) and (min-width: 992px){
+        /* Aqui van las reglas css que aplican para esta medida de pantalla */
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+/* Para pantallas con un ancho entre 768px y 991px */
+@media (max-width:991px) and (min-width:768px){
+        /* Aqui van las reglas css que aplican para esta medida de pantalla */
+}
+
+/* Extra small devices (phones, 600px and down) */
+/* Para pantallas con un ancho entre 576px y 767px */
+
+@media (max-width:767px) and (min-width:576px){
+        /* Aqui van las reglas css que aplican para esta medida de pantalla */
+}
+
+
+
+/* Extra small devices (phones, 600px and down) */
+/* Para pantallas con un ancho menor a 576px    */
+@media (max-width:576px){
+        /* Aqui van las reglas css que aplican para esta medida de pantalla */
+}

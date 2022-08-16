@@ -38,8 +38,9 @@ h2{
 
 }
 
-.flag1:hover{
-  transform: scale (1.5);
+.flags img:hover{
+  -webkit-transform:scale(1.5);
+  transform: scale(1.5);
 }
 
 h3{
@@ -133,12 +134,22 @@ ol li{
   margin-bottom: 50px;
 }
 
+.columna1 img:hover{
+  -webkit-transform: scale (1.2);
+  transform: scale(1.2);
+}
+
 .columna2{
   display: grid;
   grid-template-columns: 2fr 2fr 2fr 2fr;
   justify-content: space-between;
   column-gap: 300px;
   margin-left:250px;
+}
+
+.columna2 img:hover{
+  -webkit-transform: scale (1.2);
+  transform: scale(1.2);
 }
 
 
@@ -234,5 +245,7 @@ ol li{
 .texto__debajo{
     margin-left:50px;
 }
+
+
 
 
