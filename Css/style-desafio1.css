@@ -1,7 +1,12 @@
+*{
+  text-decoration: none;
+  color: brown;
+}
+
 h1{
     color:brown;
     text-align: center;
-    font-size:30px;
+    font-size:50px;
     margin:0;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     border-bottom: solid 5px brown;
@@ -33,29 +38,34 @@ h2{
 
 }
 
+.flag1:hover{
+  transform: scale (1.5);
+}
+
 h3{
     color:brown;
     display:flex;
-    justify-content: flex-start;
-    align-items:left;
-    font-size:25px;
-    margin-left: 50px;
+    justify-content: center;
+    align-items:center;
+    font-size:40px;
+    /*margin-left: 250px;*/
+    margin-top: 100px;
 }
 
 h4{
     color:brown;
     font-size: 25px;
-
+    
 }
 
 .subtitles{
     display:flex;
     color: brown;
-    font-size: 25px;
-    align-items: left;
-    justify-content: flex-start;
+    font-size: 50px;
+    align-items: center;
+    justify-content: center;
     padding-top:80px;
-    margin-left:50px;
+    /*margin-left:50px;*/
 }
 
 
@@ -114,6 +124,25 @@ ol li{
 }
 
 .columna1{
+  display:grid;
+  grid-template-columns: 2fr 2fr 2fr 2fr;
+  justify-content: space-between;
+  column-gap: 300px;
+  margin-left:250px;
+  margin-top:100px;
+  margin-bottom: 50px;
+}
+
+.columna2{
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr 2fr;
+  justify-content: space-between;
+  column-gap: 300px;
+  margin-left:250px;
+}
+
+
+/*.columna1{
   display: flex;
   align-items:flex-end;
   justify-content:space-around;
@@ -156,7 +185,7 @@ ol li{
 
 .columna1__pipa{
   margin-left:117px;
-}
+}   */
 
 
 .contacto{
