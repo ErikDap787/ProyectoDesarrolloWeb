@@ -64,6 +64,7 @@ h2{
   height: 200px;
   width: 300px;
   transition-delay: 1s;
+  transition:2s;
 }
 
 .noshow{
@@ -156,25 +157,45 @@ animation-duration: 3s;
 
 @keyframes map_rotation {
 
-  0% { width:240px; height:80px;}           
+  0% { width:240px; height:80px;}
+  
+  5% { width:260px; height:100px;}
 
 10% {width: 280px; height: 120px;}
 
+15%{ width:300px; height:140px;}
+
 20% {width: 320px; height: 160px;}
+
+25%{ width:340px; height:180px;}
 
 30% {width: 360px; height: 200px;}
 
+35%{ width:380px; height:220px;}
+
 40% {width: 400px; height: 240px;}
+
+45%{ width:420px; height:260px;}
 
 50% {width: 440px; height: 280px;}
 
+55%{ width:460px; height:300px;}
+
 60% {width: 480px; height: 320px;}
+
+65%{ width:500px; height:340px;}
 
 70%{ width: 520px; height: 360px;}
 
+75%{ width:540px; height:380px;}
+
 80%{width: 560px; height: 400px;}
 
+85% { width:580px; height:420px;}
+
 90%{width: 600px; height: 440px;}
+
+95%{ width:620px; height:460px;}
 
 100%{ width: 640px; height:480px;}
 
@@ -197,6 +218,7 @@ animation-duration: 3s;
   animation-timing-function:ease-in-out;
   animation-duration: 5s;
   animation-delay:3s;
+  
 }
 
 
@@ -216,6 +238,7 @@ animation-duration: 3s;
 .columna1 img:hover{
   -webkit-transform: scale (1.2);
   transform: scale(1.2);
+  transition:2s;
 }
 
 
@@ -231,11 +254,13 @@ animation-duration: 3s;
   animation-timing-function:ease-in-out;
   animation-duration: 5s;
   animation-delay:3s;
+  
 }
 
 .columna2 img:hover{
   -webkit-transform: scale (1.2);
   transform: scale(1.2);
+  transition: 2s;
 }
 
 @keyframes slide_image {
@@ -314,7 +339,7 @@ animation-duration: 3s;
 
   
 
-  /* main.container{
+  main.container{
     background-color: teal;
     height:"100vh";
   }
@@ -322,7 +347,7 @@ animation-duration: 3s;
   main.container fluid{
     background-color: teal;
     height:"100vh";
-  }   */
+  }  
 
 
 /*Media Queries*/
