@@ -15,7 +15,7 @@ h1{
     border-bottom: solid 5px brown;
 }
 
-.menu{
+/*.menu{
         background-color:#adad902f;
         color:brown;
         display:flex;
@@ -23,7 +23,7 @@ h1{
         font-size: 25px;
         border: groove 5px brown;
 
-}
+} */
 
 
 h2{
@@ -101,7 +101,7 @@ body {
   background-image: radial-gradient(circle at 50% -16.37%, #ffffa1 0, #f5ffa0 6.25%, #e4ffa0 12.5%, #d2ffa1 18.75%, #bdffa3 25%, #a7fda6 31.25%, #8cfaaa 37.5%, #6cf7af 43.75%, #3cf2b5 50%, #00edbc 56.25%, #00e8c6 62.5%, #00e4d0 68.75%, #00dfdc 75%, #00dbe9 81.25%, #00d7f5 87.5%, #00d3ff 93.75%, #00d0ff 100%);
 }
 
-.field {
+/* .field {
   display:flex;
   position:relative;
   margin:5em auto;
@@ -133,7 +133,7 @@ body {
   padding:0.6em 0.8em;
   color:brown;
   border:none;
-}
+} */
 
 ol {
   list-style:none;
@@ -338,7 +338,7 @@ animation-duration: 3s;
     /*Bootstrap*/
 
   
-
+/*
   main.container{
     background-color: teal;
     height:"100vh";
@@ -348,6 +348,12 @@ animation-duration: 3s;
     background-color: teal;
     height:"100vh";
   }  
+
+  .img-size{
+    width:100px;
+  }
+
+  */
 
 
 /*Media Queries*/
@@ -398,9 +404,9 @@ animation-duration: 3s;
 
 @media screen and (max-width:768px){
 
-  .menu {
+  /*.menu {
     font-size: 18px;
-  }
+  } */
 
   .centrado{
     width:460px;
@@ -490,7 +496,7 @@ animation-duration: 3s;
 
 @media screen and (max-width:480px){
 
-  .menu {
+/*  .menu {
     font-size: 12px;
     margin:0;
     justify-self: flex-start;
@@ -501,7 +507,7 @@ animation-duration: 3s;
     justify-content: center;
     align-items: center;
     box-shadow: none;
-  }
+  } */
 
   h2{
     display: none;
@@ -565,14 +571,14 @@ animation-duration: 3s;
 
     @media screen and (max-width: 358px) {
       
-      .menu{
+/*      .menu{
         font-size: 10px;
         margin-top:50px;
       }
 
       .field{
         display:none;
-      }
+      } */
 
       .flags{
         display: grid;
