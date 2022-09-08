@@ -15,8 +15,8 @@
   animation-timing-function: ease-in-out;
   animation-duration: 3s; }
   .flags img:hover {
-    height: 200px;
     width: 300px;
+    height: 200px;
     transition-delay: 1s;
     transition: 2s; }
 
@@ -31,32 +31,22 @@
     margin: 0;
     width: 100%; } }
 
-h2 {
-  color: brown;
-  text-align: center;
-  font-size: 20px;
-  margin-top: 100px;
-  margin-bottom: 50px; }
-
-h3 {
-  color: brown;
+h1, h2, .subtitles {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 40px;
-  margin-top: 100px; }
-
-h4 {
-  color: brown;
-  font-size: 25px; }
-
-.subtitles {
-  display: flex;
   color: brown;
   font-size: 50px;
-  align-items: center;
-  justify-content: center;
-  padding-top: 80px; }
+  margin-top: 50px;
+  margin-bottom: 50px; }
+
+h2 {
+  font-size: 40px;
+  margin-top: 80px; }
+
+.subtitles {
+  font-size: 30px;
+  margin-top: 80px; }
 
 body {
   background-image: radial-gradient(circle at 50% -16.37%, #ffffa1 0, #f5ffa0 6.25%, #e4ffa0 12.5%, #d2ffa1 18.75%, #bdffa3 25%, #a7fda6 31.25%, #8cfaaa 37.5%, #6cf7af 43.75%, #3cf2b5 50%, #00edbc 56.25%, #00e8c6 62.5%, #00e4d0 68.75%, #00dfdc 75%, #00dbe9 81.25%, #00d7f5 87.5%, #00d3ff 93.75%, #00d0ff 100%); }
@@ -150,7 +140,7 @@ ol {
   align-items: center;
   column-gap: 100px;
   margin-left: 150px;
-  margin-top: 100px;
+  margin-top: 80px;
   margin-bottom: 50px;
   animation-name: slide_image;
   animation-iteration-count: 1;
@@ -201,7 +191,7 @@ ol {
   justify-content: space-around;
   align-items: flex-start;
   margin-top: 50px;
-  background-color: #adad902f;
+  background-color: black;
   color: brown;
   border: solid 3px brown; }
 
@@ -216,28 +206,22 @@ ol {
   display: flex;
   justify-content: flex-start;
   margin-left: 50px;
-  font-size: 22px; }
+  font-size: 22px;
+  margin-top: 80px; }
 
-.texto {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  margin-left: 50px;
-  color: black; }
-
-.texto2 {
+.texto, .texto__debajo {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
   margin-left: 50px;
   font-size: 22px;
-  color: black; }
-  .texto2 p {
+  color: black;
+  margin-top: 20px; }
+  .texto p, .texto__debajo p {
     color: black; }
 
 .texto__debajo {
-  margin-left: 50px;
-  color: black; }
+  margin-top: 0px; }
 
 /*Media Queries*/
 @media screen and (max-width: 1200px) {
@@ -280,9 +264,6 @@ ol {
       display: none; }
   .columna2 {
     display: none; }
-  /*.columna2 img:hover{
-    display:$no-display;
-} */
   .subtitles {
     margin-top: 10px;
     margin-bottom: 10px;
@@ -366,81 +347,4 @@ ol {
   .sobreMi img {
     margin: 0;
     width: 440px;
-    height: 330px; } }
-
-/*$bg-contenedor: rgb(41, 209, 74);
-$color-titulos: red;
-$size-titulos: 1.3em; */
-/* body{
-    background-color: $bg-contenedor;
-}
-
-ul{
-    list-style:none;
-
-    li{
-        background-color: darkblue;
-
-        a{
-            text-decoration: none;
-            color: black;
-        }
-    }
-}
-
-    #abuelo{
-        background-color: burlywood;
-        padding:20px;
-
-        p{
-            font-size:30px;
-        }
-    }
-
-    p{
-        font-size: 20px;  
-    }
-
-    /*La p dentro de abuelo indica q los parrafos dentro de este contenedor
-    tendran 30px de fuente, mientras que los demas p tendran 20px, como se indica debajo*/
-/* h1{
-        font-size: 2em;
-        color:aquamarine
-    }
-
-    .titulo{
-        font-style: italic;
-        color: $color-titulos;
-        font-size: $size-titulos;
-    }
-
-    .hijo{
-        font-size:25px;
-
-        p{
-            background: #000;
-        }
-    } 
-
-    $vista:mobile;
-    
-    body{
-    @if $vista == desktop {
-    @media only screen and (min-width:1024px){
-    h1{font-size:$h1Desktop;}
-    h3{font-size:35px;}
-    p{font-size:$parrafoDesktop;}
-    }
-    } @else if $vista == mobile {
-    @media only screen and (max-width:767px){
-    h1{font-size:$h1Mobile;}
-    h3{font-size:25px;}
-    p{font-size:$parrafoMobile;}
-    }
-    } @else {
-    h1{font-size:34px;}
-    h3{font-size:25px;}
-    p{font-size:20px;}
-    }
-}
-*/
+    height: 300px; } }
