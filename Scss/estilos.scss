@@ -181,7 +181,7 @@ display:block;
     justify-content: map-get($estilos, space-around);
     align-items: flex-start;
     margin-top: $margin-default;
-    background-color: map-get($estilos, color);
+    background-color: lightblue;
     color: $color-letra;
     border: solid 3px $color-letra;
 }
@@ -262,9 +262,15 @@ img{
     }
 }
 
-    .texto{
-        display:$no-display;
-    }
+.texto {
+    display:$no-display;
+}
+
+.texto__debajo{
+    display:flex;
+    flex-direction:row;
+}
+
 }
 
 
@@ -431,6 +437,11 @@ img{
 
     .texto{
         display:$no-display;
+    }
+
+    .texto__debajo{
+        display:flex;
+        flex-direction:row;
     }
 
 }

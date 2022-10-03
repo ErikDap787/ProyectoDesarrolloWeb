@@ -107,7 +107,7 @@ ol {
   justify-content: space-around;
   align-items: flex-start;
   margin-top: 50px;
-  background-color: black;
+  background-color: lightblue;
   color: brown;
   border: solid 3px brown; }
 
@@ -162,7 +162,10 @@ ol {
     align-self: center;
     justify-items: center; }
   .texto, .texto__debajo {
-    display: none; } }
+    display: none; }
+  .texto__debajo {
+    display: flex;
+    flex-direction: row; } }
 
 @media screen and (max-width: 768px) {
   .centrado {
@@ -258,7 +261,10 @@ ol {
     margin-left: 0;
     margin-right: 50px; }
   .texto, .texto__debajo {
-    display: none; } }
+    display: none; }
+  .texto__debajo {
+    display: flex;
+    flex-direction: row; } }
 
 @media screen and (max-width: 358px) {
   .flags {
